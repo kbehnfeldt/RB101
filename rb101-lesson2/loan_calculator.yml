@@ -1,0 +1,9 @@
+welcome: Welcome to Loan Calculator!
+loan_amount: What is the amount of the loan?
+loan_amount_invalid: That is an invalid amount. Please try again.
+APR: What is the APR percentage on the loan?
+APR_invalid: That is an invalid APR amount
+loan_duration: What is the duration of your loan in years, months?
+duration_invalid: That is an invalid input. Be sure to input years, months.
+go_again?: Would you like to calculate another laon payment? (y or n)
+thanks_for_using: Thanks for using the loan calculator! Have a great day.

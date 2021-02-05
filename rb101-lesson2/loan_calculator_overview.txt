@@ -1,0 +1,43 @@
+---MENTAL MODEL---
+Greet user
+Get loan amount from user
+Get APR from user
+Get loan duration from user
+  ask if months or years and convert to months if needed
+
+Convert APR percentage into monthly interest rate as a floating point number
+Calculate monthly payment
+
+---RULES---
+No inputs can be 0
+APR should be given as a percentage then converted in the program
+Loan duration need to be converted to months if given in years
+Keep track of floats and integers
+
+monthly interest rate = APR rate / 12
+
+---ALGORITHM---
+START
+
+PRINT Welcome message to user
+
+GET loan amount
+SET LOAN_AMOUNT
+SUBPROCESS validate LOAN_AMOUNT value
+
+GET APR
+SET   APR as a float
+SET  MONTHLY_INTEREST = APR / 12
+
+GET loan duration
+SET LOAN_DURATION
+  IF LOAN_DURATION is in years, LOAN_DURATION * 12 to convert to months
+
+SUBPROCESS  to calculate MONTHLY_PAYMENT
+
+PRINT MONTHLY_PAYMENT
+
+GET go again?
+  IF yes, restart at GET loan amount
+  ELSE PRINT Thakes for using
+    exit program

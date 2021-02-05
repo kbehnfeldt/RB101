@@ -1,0 +1,55 @@
+**METHOD THAT RETURNS THE SUM OF TWO INTEGERS**
+
+Given two integers stored as  mumber1 and number2
+Add number1 and number2 together
+return the sum of the two numbers
+
+
+
+START
+
+Given two numbers
+
+SET number1 = the first number given
+SET number2 = the second number given
+
+RETURN number1 + number2
+
+
+**METHOD THAT TAKES AN ARRAY OF STRINGS AND RETURNS A STRING THAT IS ALL THOSE STRINGS CONCATENATED TOGETHER**
+
+Given an array of strings.
+
+create an empty string
+  refrence each element in the array and combine them using +
+
+return the string
+
+
+START
+
+Given an array of strings called array
+
+SET string =  refrence each element in array and join them with +
+
+RETURN string
+
+
+**METHOD THAT TAKES AN ARRAY OF INTEGERS AND RETURNS A NEW ARRAY WITH EVERY OTHER ELEMENT**
+
+Given an array of integers
+
+Put every element at an even index into a new array
+
+Return the new array
+
+START
+
+Given an array of integers called numbers
+
+SET new_array = nil
+
+Iterate through numbers
+  new_array numbers If the index is even
+
+RETURN new_array
