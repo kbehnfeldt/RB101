@@ -1,0 +1,30 @@
+---My answer---
+
+Input: String
+Output: Array of strings, or empty
+
+Rules: 
+  Expilcit requirements:
+    - all palindrome substrings should be returned
+    - palindromes are case sensitive ("Dad" is not a palindrome, but "dad" is.)
+
+  Implicit requirements:
+    - The output should be an array of string(s)
+    - If there aren't any palindromes, the output should be an empty array.
+    - If the input is an empty string, the output should be an empty array.
+
+
+---LS answer---
+# Some questions you might have?
+# 1. What is a substring?
+# 2. What is a palindrome?
+# 3. Will inputs always be strings?
+# 4. What does it mean to treat palindrome words case-sensitively?
+
+# input: string
+# output: an array of substrings
+# rules:
+#      Explicit requirements:
+#        - return only substrings which are palindromes.
+#        - palindrome words should be case sensitive, meaning "abBA"
+#          is not a palindrome.
